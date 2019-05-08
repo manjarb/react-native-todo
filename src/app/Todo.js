@@ -43,7 +43,7 @@ export default class Todo extends Component {
       <View>
         <TextInput
           value={this.state.newTodo}
-          placeholder="Type here 2"
+          placeholder="Type here 3"
           onChangeText={this.handleChange}
         />
         <TouchableHighlight onPress={this.handlePress}>
